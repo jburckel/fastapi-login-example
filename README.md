@@ -6,11 +6,24 @@ Tools and libraries used: SQLAlchemy, oauthlib
 
 ## How to use
 
- 1. Get an App Id and App Secret from Google and Facebook and set corresponding environment variable (or indicate them in app/setting.py) 
- 2. Install requirements:
+ 1. Get an App Id and App Secret from Google and Facebook and set corresponding environment variable (or indicate them in app/setting.py)
+ 2. Create a folder and clone this repository inside
+ 2. Create a Python Virtual Environment and activate it:
+  * Linux
+ ```
+ python -m venv venv
+ source venv/bin/activate
+ ```
+  * Windows
+  ```
+  python -m venv venv
+  venv\Scripts\activate
+  ``` 
+ 3. Install requirements:
  ```
  pip install -r requirements.txt
  ```
+ 4.  
 
 
 ## Sources
