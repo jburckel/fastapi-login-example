@@ -6,14 +6,8 @@ IF "%1" == "dev" GOTO dev
 uvicorn app.main:app
 GOTO :EOF
 
-:set-env
-set GOOGLE_CLIENT_ID=
-set GOOGLE_CLIENT_SECRET=
-set FACEBOOK_CLIENT_ID=
-set FACEBOOK_CLIENT_SECRET=
-GOTO :EOF
-
 :dev
 set OAUTHLIB_INSECURE_TRANSPORT=1
 uvicorn app.main:app --reload
+set OAUTHLIB_INSECURE_TRANSPORT=
 GOTO :EOF
