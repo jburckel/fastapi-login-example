@@ -2,7 +2,7 @@
 
 With this example, register and login are possible using Google and Facebook OAuth2 as well as local OAuth2 (as explain in https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/)
 
-Tools and libraries used: SQLAlchemy, oauthlib
+Tools used: SQLAlchemy, oauthlib
 
 ## How to use
 
@@ -23,7 +23,9 @@ Tools and libraries used: SQLAlchemy, oauthlib
  ```
  pip install -r requirements.txt
  ```
- 4.  
+ 4. Start uvicorn or use run scripts provided
+ 
+ Running script in dev mode (run dev or ./run.sh dev) set OAUTHLIB_INSECURE_TRANSPORT variable to 1 so oauthlib will not raise error if your are not using HTTPS https://oauthlib.readthedocs.io/en/latest/oauth2/security.html
 
 
 ## Sources
