@@ -8,7 +8,7 @@ Tools used: SQLAlchemy, oauthlib
 
  1. Get an App Id and App Secret from Google and Facebook and set corresponding environment variable (or indicate them in app/setting.py)
  2. Create a folder and clone this repository inside
- 2. Create a Python Virtual Environment and activate it:
+ 3. Create a Python Virtual Environment and activate it:
   * Linux
  ```
  python -m venv venv
@@ -19,11 +19,11 @@ Tools used: SQLAlchemy, oauthlib
   python -m venv venv
   venv\Scripts\activate
   ``` 
- 3. Install requirements:
+ 4. Install requirements:
  ```
  pip install -r requirements.txt
  ```
- 4. Start uvicorn or use run scripts provided
+ 5. Start uvicorn or use run scripts provided
  
  Running script in dev mode (run dev or ./run.sh dev) set OAUTHLIB_INSECURE_TRANSPORT variable to 1 so oauthlib will not raise error if your are not using HTTPS https://oauthlib.readthedocs.io/en/latest/oauth2/security.html
 
