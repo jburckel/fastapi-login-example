@@ -31,5 +31,6 @@ Tools used: SQLAlchemy, oauthlib
 ## Sources
 
 Some ideas from: 
+ * FastAPI tutorials : https://fastapi.tiangolo.com/
  * https://realpython.com/flask-google-login/
  * https://blog.miguelgrinberg.com/post/oauth-authentication-with-flask
