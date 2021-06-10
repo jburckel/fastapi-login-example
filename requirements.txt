@@ -7,7 +7,7 @@ cryptography==3.0
 dnspython==2.0.0
 ecdsa==0.15
 email-validator==1.1.1
-fastapi==0.60.1
+fastapi==0.65.2
 h11==0.9.0
 idna==2.10
 mccabe==0.6.1
